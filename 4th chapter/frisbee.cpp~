@@ -1,0 +1,14 @@
+/*
+  Task text taken from from Kusalić, D. (2012). Napredno programiranje i algoritmi u C-u i C++-u (3rd ed.). Element. Page 182
+
+  Numbers are arranged in a circle and they are passing frisbee. n is inputted (1 <= n <= 1000) and after that n natural numbers
+  less than 10^9. Second number is to the right of the first one, third number is to the right of the second one etc.
+  The first number is to the right of the last one. At the beginning the first number has the frisbee. If the first number is 5, then he will
+  step out of the circle and pass the frisbee to the 5th number to its right. The number who gets the frisbee will step out of the circle and
+  pass it to the x-th element to the right, if its value is . Numbers leave the circle and toss the frisbee. Print the numbers in the order
+  they left the circle.
+
+  This is my solution before looking at the book's solution.
+*/
+
+// pamti broj elemenata i modulom rješavaj

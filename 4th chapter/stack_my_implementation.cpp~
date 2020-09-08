@@ -1,0 +1,5 @@
+/*
+  My queue array-based implementation before looking at the solution from Kusalić, D. (2012). Napredno programiranje i algoritmi u C-u i C++-u (3rd ed.). Element. Page 167
+
+  Not the most optimal, just a crude implementation.
+*/

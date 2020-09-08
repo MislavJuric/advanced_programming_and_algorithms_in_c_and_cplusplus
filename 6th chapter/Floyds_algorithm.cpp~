@@ -1,0 +1,11 @@
+/*
+  Exercise taken from from Kusalić, D. (2012). Napredno programiranje i algoritmi u C-u i C++-u (3rd ed.). Element. Page 246-247
+
+  Students from a class are passing a ball. Every student randomly picks one of his/her friends and passes the ball. Not all students are friends.
+  What is the least amount of balls the professor has to give to the students in order for everyone to get the ball? 
+
+  Input data is number of students: n (2 <= n <= 10000) and m (1 <= m <= 100000), and then m pairs of numbers a and b (1 <= a,b <= n).
+  a and b represent the students which are friends.
+
+  The solution here is mine, before looking at the book's solution.
+*/

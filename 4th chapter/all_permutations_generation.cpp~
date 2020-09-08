@@ -1,0 +1,10 @@
+/*
+  Code taken from from Kusalić, D. (2012). Napredno programiranje i algoritmi u C-u i C++-u (3rd ed.). Element. Pages 164
+
+  Write out all the permutations of an arbitrary array.
+
+  This solution is taken from the book. I "translated" it to C++.
+*/
+
+#include <iostream>
+

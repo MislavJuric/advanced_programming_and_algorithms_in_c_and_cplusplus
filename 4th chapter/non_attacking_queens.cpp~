@@ -1,0 +1,45 @@
+/*
+  Task text taken from from Kusalić, D. (2012). Napredno programiranje i algoritmi u C-u i C++-u (3rd ed.). Element. Page 158
+
+  Coun the number of possible positions of queens on a chessboard such that they don't attack each other.
+
+  I wrote this code; I modeled it after the book's solution for generating permutations, but I wrote the specific code to check for attacks myself
+*/
+
+// I traced this through on paper since it was hard for me to understand it immediately; it makes sense
+
+#include <iostream>
+
+constexpr int MAXI = 8;
+
+using namespace std;
+
+void rec(int x, int n)
+{
+  int digits[MAXI] = {0}; // we are using the elements at the 0 to 7	 indicies
+  int xx, i;
+  if (n == 0)
+  {
+    if (check(x))
+    return;
+  }
+  xx = x;
+  while (xx)
+  {
+    digits[xx % 10 - 1] = 1; // so it is between 0 and 4
+    xx /= 10;
+  }
+  for (i = 1; i <= MAXI; i++)
+  {
+    if (!digits[i - 1])
+    {
+      rec(x * 10 + i, n - 1);
+    }
+  }
+}
+
+int main()
+{
+  rec(0,8);
+  return 0;
+}

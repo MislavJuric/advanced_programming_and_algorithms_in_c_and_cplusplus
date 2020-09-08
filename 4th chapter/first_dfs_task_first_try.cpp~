@@ -1,0 +1,22 @@
+/*
+  Exercise taken from from Kusalić, D. (2012). Napredno programiranje i algoritmi u C-u i C++-u (3rd ed.). Element. Page 170
+
+  Write out the steps needed to arrange a 2D array that is 2x3 to this:
+
+  1 2 3
+  4 5 6
+
+  The solution generated here is mine, before looking at the book's solution.
+*/
+
+/*
+  My general procedure:
+  
+  1. Create a vector of 2x3 arrays
+  2. In the recursion, remember all of the 2x3 arrays
+  3. Check if the current 2x3 is the solution
+  4a. If not, change the configuration and see if you already have it in the vector of 2x3 arrays
+  4b. If you have it in the vector, don't recurse - change another thing (before changing it revert the 2x3 back to its original at the start of the recursion)
+  4c. If you don't have it in the vector, recurse
+*/
+

@@ -1,0 +1,11 @@
+/*
+  Exercise taken from from Kusalić, D. (2012). Napredno programiranje i algoritmi u C-u i C++-u (3rd ed.). Element. Page 341-342
+
+  The bank decided that in the next n days it will exhange the ratio of dollars to euros within its money exchange booths.
+  You found out this classified information and you want to use it to make the most money. You have 1000 euros at your disposal.
+  What is the maximum amount of euros you can have on n-th day if you can exchange your money from dollars to euros and vice versa every day?
+  The input data is n (1 <= n <= 100 000), then n positive decimal numbers x. On each day 1 euro is worth x dollars. If x is 1.5, for example,
+  that means that that day you can exchange 10 euros to 15 dollars and vice versa.
+
+  The solution here is mine (before looking at the book's solution). I did read the text between the task description and the solution code.
+*/
